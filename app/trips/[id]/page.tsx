@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { getTripById } from "../../../data/trips";
+import ReactMarkdown from "react-markdown";
 
 export default async function TripDetailPage({ params }: { params: Promise<{ id: string }> }) {
   const resolvedParams = await params; // ✅ unwrap the Promise
@@ -45,10 +46,9 @@ export default async function TripDetailPage({ params }: { params: Promise<{ id:
             <h2 className="text-3xl font-bold mb-4 text-gray-800">
               Trip Overview
             </h2>
-            <p className="text-lg text-gray-700 leading-relaxed mb-8">
-              {trip.description}
-            </p>
-
+            <div className="prose prose-blue max-w-none mb-8">
+              <ReactMarkdown>{trip.description}</ReactMarkdown>
+            </div>
             <h3 className="text-2xl font-semibold mb-4 border-b pb-2 text-blue-600">
               Photo Gallery
             </h3>

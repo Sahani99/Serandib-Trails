@@ -12,45 +12,166 @@ interface Trip {
 }
 
 export const trips: Trip[] = [
-  {
+      {
     id: 1,
-    name: "Cultural Essence of Kandy",
+    name: "3-Day Coastal & Hill Country Explorer from Colombo",
     days: 3,
-    categories: ["Historical", "Hill Side"],
-    image:
-      "https://images.unsplash.com/photo-1606787366850-de6330128bfc?auto=format&fit=crop&w=800&q=80",
-    description: "Explore the sacred city of Kandy, home to the Temple of the Tooth Relic and stunning botanical gardens. A perfect short immersion into Sri Lankan culture.",
-    gallery: [
-      "https://images.unsplash.com/photo-1549488344-ec24cf74e2d3?auto=format&fit=crop&w=700&h=450&q=80",
-      "https://images.unsplash.com/photo-1521742618210-9e9f697669d6?auto=format&fit=crop&w=700&h=450&q=80",
-    ],
-  },
-  {
-    id: 2,
-    name: "Southern Coastal Escape",
-    days: 5,
-    categories: ["Beach", "Relaxation"],
+    categories: ["Adventure", "Scenic", "Cultural"],
     image:
       "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
-    description: "Five days of pure relaxation on the golden beaches of the Southern Coast. Enjoy sunbathing, surfing, and delicious seafood.",
+    description: `
+  Experience the best of Sri Lanka’s coastlines and hill country in this 3-day, 2-night journey from Colombo — blending golden beaches, cool mountains, and cultural charm.
+
+  🗓️ **Day 1 – Colombo ➜ Bentota (Beaches & River Safari)**
+  - Pick up from your Colombo hotel.
+  - Drive south along the **scenic coastal road** to Bentota.
+  - Enjoy a **Madu River Boat Safari** – explore mangroves, fish therapy, and cinnamon island.
+  - Visit the **Turtle Hatchery** in Kosgoda and learn about sea turtle conservation.
+  - Evening at leisure by the **Bentota beach**.
+  - 🏖️ **Overnight in Bentota.**
+
+  🗓️ **Day 2 – Bentota ➜ Galle ➜ Ella (Culture & Hill Country)**
+  - After breakfast, head to **Galle Fort (UNESCO World Heritage Site)** for a guided walk.
+  - Visit the **Moonstone Mine** and **Gem Factory** at Meetiyagoda.
+  - Continue your scenic journey to **Ella**, passing tea plantations and waterfalls.
+  - Visit **Nine Arches Bridge** and **Ravana Falls** on arrival.
+  - 🌄 **Overnight in Ella.**
+
+  🗓️ **Day 3 – Ella ➜ Colombo (Tea & Mountains)**
+  - Morning hike to **Little Adam’s Peak** for panoramic mountain views.
+  - Visit a **Tea Plantation & Factory** to learn about tea making and enjoy tasting.
+  - Optional Adventure Activities near Ella:  
+    • Zipline  
+    • ATV Rides  
+    • Swing  
+  - Begin the scenic return journey to **Colombo**, with photo stops en route.
+  - 🌅 **Evening: Drop off at your Colombo hotel.**
+
+  ---
+
+  🌟 **Highlights:**
+  - **Nature & Scenery:** Madu River, Ella Mountains, Ravana Falls  
+  - **Wildlife & Conservation:** Turtle Hatchery Experience  
+  - **Adventure:** Zipline, ATV, Swing  
+  - **Culture & Heritage:** Galle Fort, Gem & Jewellery Factory, Tea Plantation  
+  - **Relaxation:** Beach stay in Bentota, cool mountain air in Ella
+    `,
     gallery: [
-      "https://images.unsplash.com/photo-1510414731885-3c12669e48c0?auto=format&fit=crop&w=700&h=450&q=80",
-      "https://images.unsplash.com/photo-1588636254471-a4b52b2b1a1c?auto=format&fit=crop&w=700&h=450&q=80",
+      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=700&h=450&q=80",
+      "https://images.unsplash.com/photo-1558980394-0d7c5d9d5f02?auto=format&fit=crop&w=700&h=450&q=80",
+      "https://images.unsplash.com/photo-1597655418036-3b52d3b0b67e?auto=format&fit=crop&w=700&h=450&q=80",
+      "https://images.unsplash.com/photo-1600508774310-7885e90a0b42?auto=format&fit=crop&w=700&h=450&q=80",
     ],
   },
+
+  {
+    id: 2,
+    name: "3-Day Southern Adventure from Bentota",
+    days: 3,
+    categories: ["Adventure", "Wildlife", "Hill Side"],
+    image:
+      "https://images.unsplash.com/photo-1600508774310-7885e90a0b42?auto=format&fit=crop&w=800&q=80",
+    description: `
+  Embark on a thrilling 3-day, 2-night journey from Bentota through Sri Lanka’s southern wonders — from serene rivers and coastal gems to wild safaris and breathtaking mountain landscapes.
+
+  🗓️ **Day 1 – Bentota ➜ Yala (River, Gems & Wildlife)**
+  - Pick up from Bentota hotel.
+  - Enjoy a **Madu River Boat Safari** — explore mangroves, cinnamon island, and fish therapy.
+  - Visit the **Moonstone Mine & Gem Factory** in Meetiyagoda.
+  - Stop at **Galle Fort** for a short walk.
+  - Continue the scenic coastal drive to **Yala**.
+  - Check in to hotel in **Tissamaharama** (Yala area); relax by the lake or enjoy a village walk.
+  - 🐆 **Overnight in Yala / Tissamaharama.**
+
+  🗓️ **Day 2 – Yala ➜ Ella (Safari & Hill Country)**
+  - Early morning **Jeep Safari** at Yala National Park — spot leopards, elephants, and rare birds.
+  - Return for breakfast; drive to **Ella** via scenic mountain roads.
+  - Visit **Ravana Falls** and **Nine Arches Bridge**.
+  - Evening: explore **Ella town** or relax with mountain views.
+  - 🏞 **Overnight in Ella.**
+
+  🗓️ **Day 3 – Ella ➜ Bentota (Train Ride & Adventure)**
+  - After breakfast, enjoy the **scenic train ride**.
+  - Visit **Little Adam’s Peak** for panoramic views.
+  - Optional **Adventure Activities** near Ella:  
+    • Zipline  
+    • Wall Climbing  
+    • ATV Rides  
+    • Swing  
+  - Visit a **Tea Plantation & Factory** for a tea-making tour and tasting.
+  - Afternoon: drive back to Bentota with photo stops.
+  - 🌅 **Evening: Drop off at Bentota hotel.**
+
+  ---
+
+  🌟 **Highlights:**
+  - **Wildlife & Safari:** Yala National Park Jeep Safari  
+  - **Nature & Scenery:** Madu River, Ravana Falls, Ella mountains  
+  - **Adventure:** Zipline, Wall Climbing, ATV, Swing  
+  - **Culture & Heritage:** Galle Fort, Gem & Jewellery Factory, Tea Plantation  
+  - **Relaxation:** Lake view stay in Yala / Ella mountain escape
+    `,
+    gallery: [
+      "https://images.unsplash.com/photo-1600508774310-7885e90a0b42?auto=format&fit=crop&w=700&h=450&q=80",
+      "https://images.unsplash.com/photo-1545243424-0ce743321e11?auto=format&fit=crop&w=700&h=450&q=80",
+      "https://images.unsplash.com/photo-1604045771789-4d1e9b35f3d0?auto=format&fit=crop&w=700&h=450&q=80",
+      "https://images.unsplash.com/photo-1622033554591-53d60c17a85f?auto=format&fit=crop&w=700&h=450&q=80",
+    ],
+  },
+
   {
     id: 3,
-    name: "Wildlife Safari in Yala",
-    days: 7,
-    categories: ["Adventure", "Safari"],
+    name: "3-Day Culture, Heritage & Village Experience Tour from Negombo",
+    days: 3,
+    categories: ["Cultural", "Historical", "Village Life"],
     image:
-      "https://images.unsplash.com/photo-1551334787-21e6bd3ab135?auto=format&fit=crop&w=800&q=80",
-    description: "A thrilling safari adventure through Yala National Park, home to leopards, elephants, and a variety of unique wildlife.",
+      "https://images.unsplash.com/photo-1616837961382-5cf3b0f3a91d?auto=format&fit=crop&w=800&q=80",
+    description: `
+  Discover Sri Lanka’s cultural heartland in this 3-day journey from Negombo — visiting ancient kingdoms, sacred temples, and experiencing authentic village life.
+
+  🗓️ **Day 1 – Negombo ➜ Kandy (Culture & Temples)**
+  - Pick up from your Negombo hotel.
+  - Visit **Pinnawala Elephant Orphanage** – watch elephants bathing and feeding.
+  - Continue to **Kandy**, the hill capital of Sri Lanka.
+  - Visit the **Temple of the Sacred Tooth Relic (Sri Dalada Maligawa)**.
+  - Explore **Kandy Lake**, the **local market**, and a **Gem & Jewellery workshop**.
+  - Experience a **Cultural Dance Show** in the evening.
+  - Check in and relax at your hotel surrounded by Kandy’s misty hills.  
+  - 🏯 **Overnight in Kandy.**
+
+  🗓️ **Day 2 – Kandy ➜ Matale ➜ Sigiriya ➜ Polonnaruwa (Spices & Heritage Trail)**
+  - After breakfast, visit a **Spice Garden** in Matale to learn about Sri Lanka’s famous spices and herbal medicine.
+  - Continue to **Sigiriya Rock Fortress (UNESCO World Heritage Site)** — climb the rock, see ancient frescoes, and enjoy breathtaking views.
+  - Visit **Polonnaruwa**, the ancient second capital of Sri Lanka — see the **Royal Palace**, **Gal Vihara**, and **Parakrama Samudra**.
+  - Return to your hotel in **Sigiriya / Habarana** for a relaxing evening.  
+  - 🏯 **Overnight in Sigiriya / Habarana.**
+
+  🗓️ **Day 3 – Sigiriya ➜ Dambulla ➜ Negombo (Village Life & Traditions)**
+  - After breakfast, enjoy a **Sigiriya Village Tour** to experience authentic rural life:
+    • Bull Cart Ride through the village  
+    • Lake Boat Ride with scenic views  
+    • Visit a local home to see traditional Sri Lankan cooking  
+    • Enjoy an authentic **Sri Lankan lunch** made by villagers
+  - Visit the **Dambulla Cave Temple (UNESCO Site)** — famous for its Buddha statues and colorful murals.
+  - Begin your scenic return journey to **Negombo**.  
+  - 🌅 **Evening: Drop off at your Negombo hotel.**
+
+  ---
+
+  🌟 **Highlights:**
+  - **UNESCO World Heritage Sites:** Kandy, Sigiriya, Polonnaruwa, Dambulla  
+  - **Cultural Experiences:** Temple of the Tooth, Spice Garden, Cultural Show  
+  - **Village Life & Traditions:** Bull Cart Ride, Boat Ride, Traditional Cooking & Lunch  
+  - **Ancient Kingdoms & Architecture:** Sigiriya Fortress, Polonnaruwa Ruins, Dambulla Cave Temple
+    `,
     gallery: [
-      "https://images.unsplash.com/photo-1534346896223-9528d2d6c63c?auto=format&fit=crop&w=700&h=450&q=80",
-      "https://images.unsplash.com/photo-1546740683-16a7575306e9?auto=format&fit=crop&w=700&h=450&q=80",
+      "https://images.unsplash.com/photo-1616837961382-5cf3b0f3a91d?auto=format&fit=crop&w=700&h=450&q=80",
+      "https://images.unsplash.com/photo-1570786099623-876d4a0bd88e?auto=format&fit=crop&w=700&h=450&q=80",
+      "https://images.unsplash.com/photo-1589732566989-59d6e2b7b34f?auto=format&fit=crop&w=700&h=450&q=80",
+      "https://images.unsplash.com/photo-1597653239488-cf2e0c5c5794?auto=format&fit=crop&w=700&h=450&q=80",
     ],
   },
+
   {
     id: 4,
     name: "Tea Trails of Nuwara Eliya",
