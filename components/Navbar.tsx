@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from 'react';
-import { Menu, X, Home, Map, Info, Phone, PlaneTakeoff } from 'lucide-react';
+import { Menu, X, Home, Info, Phone, PlaneTakeoff, List, Hotel } from 'lucide-react';
 
 // ✅ Reusable Link Component (Mock for standalone React)
 // Replace with: `import Link from 'next/link'` if using Next.js
@@ -21,8 +21,9 @@ const Link: React.FC<LinkProps> = ({ href, children, className = '', onClick }) 
 // ✅ Navigation Links
 const navLinks = [
   { name: 'Home', href: '/', icon: Home },
-  { name: 'Destinations', href: '/destinations', icon: Map },
+  { name: 'Our Packages', href: '/packages', icon: List },
   { name: 'About Us', href: '/about', icon: Info },
+    { name: 'Hotels', href: '/hotels', icon: Hotel },
   { name: 'Contact Us', href: '/contact', icon: Phone },
 ];
 

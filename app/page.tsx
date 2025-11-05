@@ -1,4 +1,5 @@
 import Carousel from "@/components/Carousel";
+import CustomerReviews from "@/components/CustomerReviews";
 import FeaturedTrips from "@/components/FeaturedTrips";
 
 export default function Home() {
@@ -6,6 +7,7 @@ export default function Home() {
     <main>
       <Carousel />
       <FeaturedTrips />
+      <CustomerReviews />
     </main>
   );
 }
