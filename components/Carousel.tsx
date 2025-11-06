@@ -1,90 +1,3 @@
-// "use client";
-
-// import React, { useState, useEffect } from "react";
-// import Image from "next/image";
-
-// interface Slide {
-//   src: string;
-//   alt: string;
-//   title: string;
-//   subtitle: string;
-// }
-
-// const slides: Slide[] = [
-//   {
-//     src: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
-//     alt: "Beautiful beach in Sri Lanka",
-//     title: "Discover Paradise",
-//     subtitle: "Explore Sri Lanka’s stunning coastlines and culture",
-//   },
-//   {
-//     src: "https://images.unsplash.com/photo-1501785888041-af3ef285b470",
-//     alt: "Mountain in Sri Lanka",
-//     title: "Adventure Awaits",
-//     subtitle: "From misty mountains to lush tea plantations",
-//   },
-//   {
-//     src: "https://images.unsplash.com/photo-1483683804023-6ccdb62f86ef",
-//     alt: "Sri Lankan temple",
-//     title: "Cultural Heritage",
-//     subtitle: "Experience timeless traditions and warm hospitality",
-//   },
-// ];
-
-// const Carousel: React.FC = () => {
-//   const [current, setCurrent] = useState(0);
-
-//   // Auto slide every 4 seconds
-//   useEffect(() => {
-//     const interval = setInterval(() => {
-//       setCurrent((prev) => (prev + 1) % slides.length);
-//     }, 4000);
-//     return () => clearInterval(interval);
-//   }, []);
-
-//   return (
-//     <div className="relative w-full h-[80vh] overflow-hidden">
-//       {slides.map((slide, index) => (
-//         <div
-//           key={index}
-//           className={`absolute inset-0 transition-opacity duration-1000 ease-in-out ${
-//             index === current ? "opacity-100" : "opacity-0"
-//           }`}
-//         >
-//           <Image
-//             src={slide.src}
-//             alt={slide.alt}
-//             fill
-//             className="object-cover"
-//             priority={index === 0}
-//           />
-//           {/* Overlay */}
-//           <div className="absolute inset-0 bg-black/50 flex flex-col justify-center items-center text-center text-white px-6">
-//             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-//               {slide.title}
-//             </h2>
-//             <p className="text-lg md:text-xl">{slide.subtitle}</p>
-//           </div>
-//         </div>
-//       ))}
-
-//       {/* Dots (Indicators) */}
-//       <div className="absolute bottom-6 left-1/2 transform -translate-x-1/2 flex space-x-2">
-//         {slides.map((_, i) => (
-//           <button
-//             key={i}
-//             onClick={() => setCurrent(i)}
-//             className={`w-3 h-3 rounded-full ${
-//               i === current ? "bg-white" : "bg-gray-400"
-//             }`}
-//           ></button>
-//         ))}
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Carousel;
 "use client";
 
 import React, { useState, useEffect, useCallback } from "react";
@@ -102,7 +15,7 @@ interface Slide {
 
 const slides: Slide[] = [
   {
-    src: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+    src: "/Images/Carousel/c1.jpg",
     alt: "Beautiful beach in Sri Lanka, clear water, and palm trees",
     title: "Discover Paradise",
     subtitle: "Explore Sri Lanka’s stunning coastlines and culture",
