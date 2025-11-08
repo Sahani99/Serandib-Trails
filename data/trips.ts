@@ -17,8 +17,7 @@ export const trips: Trip[] = [
     name: "3-Day Coastal & Hill Country Explorer from Colombo",
     days: 3,
     categories: ["Adventure", "Scenic", "Cultural"],
-    image:
-      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+    image:"/images/coastal.jpg",
     description: `
   Experience the best of Sri Lanka’s coastlines and hill country in this 3-day, 2-night journey from Colombo — blending golden beaches, cool mountains, and cultural charm.
 
@@ -57,10 +56,17 @@ export const trips: Trip[] = [
   - **Relaxation:** Beach stay in Bentota, cool mountain air in Ella
     `,
     gallery: [
-      "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=700&h=450&q=80",
-      "https://images.unsplash.com/photo-1558980394-0d7c5d9d5f02?auto=format&fit=crop&w=700&h=450&q=80",
-      "https://images.unsplash.com/photo-1597655418036-3b52d3b0b67e?auto=format&fit=crop&w=700&h=450&q=80",
-      "https://images.unsplash.com/photo-1600508774310-7885e90a0b42?auto=format&fit=crop&w=700&h=450&q=80",
+      "/images/benthota beach.jpg",
+      "/images/ella.jpg",
+      "/images/Galle Fort 1.jpg",
+      "/images/Galle Fort 2.jpg",
+      "/images/Ravana-Waterfall.jpg",
+      "/images/madu river 1.jpg",
+      "/images/madu river 2.jpg",
+      "/images/nine arches.jpg",
+      "/images/kosgoda-turtle-hatchery 1.jpg",
+      "/images/kosgoda-turtle-hatchery 2.jpg",
+      "/images/little-adams-peak-view.jpg",
     ],
   },
 
@@ -69,8 +75,7 @@ export const trips: Trip[] = [
     name: "3-Day Southern Adventure from Bentota",
     days: 3,
     categories: ["Adventure", "Wildlife", "Hill Side"],
-    image:
-      "https://media.tacdn.com/media/attractions-splice-spp-674x446/06/d6/2a/ab.jpg",
+    image:"/images/benthota beach.jpg",
     description: `
   Embark on a thrilling 3-day, 2-night journey from Bentota through Sri Lanka’s southern wonders — from serene rivers and coastal gems to wild safaris and breathtaking mountain landscapes.
 
@@ -112,10 +117,15 @@ export const trips: Trip[] = [
   - **Relaxation:** Lake view stay in Yala / Ella mountain escape
     `,
     gallery: [
-      "https://images.unsplash.com/photo-1600508774310-7885e90a0b42?auto=format&fit=crop&w=700&h=450&q=80",
-      "https://images.unsplash.com/photo-1545243424-0ce743321e11?auto=format&fit=crop&w=700&h=450&q=80",
-      "https://images.unsplash.com/photo-1604045771789-4d1e9b35f3d0?auto=format&fit=crop&w=700&h=450&q=80",
-      "https://images.unsplash.com/photo-1622033554591-53d60c17a85f?auto=format&fit=crop&w=700&h=450&q=80",
+      "/images/benthota beach.jpg",
+      "/images/madu river 1.jpg", 
+      "/images/Ravana-Waterfall.jpg",
+      "/images/yala-national-park-1.jpg",
+      "/images/yala-national-park-2.jpg",
+      "/images/yala-national-park-3.jpg",
+      "/images/little-adams-peak-view.jpg",
+      "/images/tea estate 1.jpg",
+      "/images/ella.jpg",
     ],
   },
 
@@ -124,8 +134,7 @@ export const trips: Trip[] = [
     name: "3-Day Culture, Heritage & Village Experience Tour from Negombo",
     days: 3,
     categories: ["Cultural", "Historical", "Village Life"],
-    image:
-      "https://images.unsplash.com/photo-1616837961382-5cf3b0f3a91d?auto=format&fit=crop&w=800&q=80",
+    image:"/images/Pinnawala-Elephant-Orphanage-1.jpg",
     description: `
   Discover Sri Lanka’s cultural heartland in this 3-day journey from Negombo — visiting ancient kingdoms, sacred temples, and experiencing authentic village life.
 
@@ -165,10 +174,13 @@ export const trips: Trip[] = [
   - **Ancient Kingdoms & Architecture:** Sigiriya Fortress, Polonnaruwa Ruins, Dambulla Cave Temple
     `,
     gallery: [
-      "https://images.unsplash.com/photo-1616837961382-5cf3b0f3a91d?auto=format&fit=crop&w=700&h=450&q=80",
-      "https://images.unsplash.com/photo-1570786099623-876d4a0bd88e?auto=format&fit=crop&w=700&h=450&q=80",
-      "https://images.unsplash.com/photo-1589732566989-59d6e2b7b34f?auto=format&fit=crop&w=700&h=450&q=80",
-      "https://images.unsplash.com/photo-1597653239488-cf2e0c5c5794?auto=format&fit=crop&w=700&h=450&q=80",
+      "/images/Pinnawala-Elephant-Orphanage-1.jpg",
+      "/images/Pinnawala-Elephant-Orphanage-2.jpg",
+      "/images/Sigiriya Village Tour.jpg",
+      "/images/Sigiriya Village Tour 2.jpg",
+      "/images/sigiriya.jpeg",
+      "/images/Parakrama-Samudraya.jpg",
+      "/images/Sri Dalada Maligawa.jpg",
     ],
   },
 
@@ -177,12 +189,11 @@ export const trips: Trip[] = [
     name: "Tea Trails of Nuwara Eliya",
     days: 3,
     categories: ["Hill Side", "Countryside"],
-    image:
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80",
+    image:"/images/tea trails 1.jpg",
     description: "Immerse yourself in the colonial charm and rolling tea plantations of Nuwara Eliya, the 'Little England' of Sri Lanka.",
     gallery: [
-      "https://images.unsplash.com/photo-1584224744747-92582881b850?auto=format&fit=crop&w=700&h=450&q=80",
-      "https://images.unsplash.com/photo-1587588386348-18e950882e37?auto=format&fit=crop&w=700&h=450&q=80",
+      "/images/tea trails 1.jpg",
+      "/images/tea trails 2.jpg",
     ],
   },
   {
@@ -190,12 +201,13 @@ export const trips: Trip[] = [
     name: "Anuradhapura Heritage Tour",
     days: 14,
     categories: ["Historical"],
-    image:
-      "https://images.unsplash.com/photo-1602461371527-7c5b05b3a55e?auto=format&fit=crop&w=800&q=80",
+    image:"/images/anuradhapura heritage 2.jpg",
     description: "A deep dive into Sri Lanka's ancient kingdom, exploring colossal dagobas, ancient reservoirs, and historical ruins.",
     gallery: [
-      "https://images.unsplash.com/photo-1620861118749-9c59508922c2?auto=format&fit=crop&w=700&h=450&q=80",
-      "https://images.unsplash.com/photo-1623955688537-b4d4b1a415a7?auto=format&fit=crop&w=700&h=450&q=80",
+      "/images/anuradhapura heritage 1.jpg",
+      "/images/anuradhapura heritage 2.jpg",
+      "/images/anuradhapura heritage 3.jpg",
+      "/images/anuradhapura heritage 4.jpg",
     ],
   },
   {
@@ -203,12 +215,13 @@ export const trips: Trip[] = [
     name: "Adam's Peak Hike",
     days: 21,
     categories: ["Adventure", "Safari", "Hill Side"],
-    image:
-      "https://images.unsplash.com/photo-1526772662000-3f88f10405ff?auto=format&fit=crop&w=800&q=80",
+    image:"/images/adam's peak 2.jpeg",
     description: "The ultimate Sri Lankan expedition, combining culture, wildlife, and the challenging but rewarding climb to the summit of Adam's Peak.",
     gallery: [
-      "https://images.unsplash.com/photo-1606830588691-b3b4d4c5c2a3?auto=format&fit=crop&w=700&h=450&q=80",
-      "https://images.unsplash.com/photo-1519782800-e7f016f40660?auto=format&fit=crop&w=700&h=450&q=80",
+      "/images/adam's peak 1.jpg",
+      "/images/adam's peak 2.jpeg",
+      "/images/adam's peak 3.jpg",
+      "/images/adam's peak 4.jpg",
     ],
   },
 ];

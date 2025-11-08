@@ -6,12 +6,11 @@ import Image from 'next/image';
 // PLACEHOLDER DATA: Replace these URLs with your actual review screenshots
 const reviewScreenshots = [
     // ... (Your review screenshots data remains the same)
-    "https://images.unsplash.com/photo-1542838132-752a781b0a79?auto=format&fit=crop&w=400&q=80", 
-    "https://images.unsplash.com/photo-1587825313364-ff88981f422b?auto=format&fit=crop&w=400&q=80", 
-    "https://images.unsplash.com/photo-1590439474765-a8c9b9b0f026?auto=format&fit=crop&w=400&q=80", 
-    "https://images.unsplash.com/photo-1557871239-16b7f9b7c8f4?auto=format&fit=crop&w=400&q=80", 
-    "https://images.unsplash.com/photo-1594904037145-66795f550577?auto=format&fit=crop&w=400&q=80", 
-    "https://images.unsplash.com/photo-1517457210348-b7c11f7c0a9e?auto=format&fit=crop&w=400&q=80", 
+    "/images/benthota beach.jpg",
+    "/images/benthota beach.jpg",
+    "/images/benthota beach.jpg",
+    "/images/benthota beach.jpg",
+    "/images/benthota beach.jpg",
 ];
 
 const CustomerReviews: React.FC = () => {
