@@ -77,7 +77,7 @@ export default async function TripDetailPage({ params }: { params: Promise<{ id:
             <div className="space-y-4">
               <div className="flex justify-between items-center text-lg">
                 <span className="font-semibold text-gray-600">Duration:</span>
-                <span className="font-bold text-blue-700">
+                <span className="font-bold text-teal-600">
                   {trip.days} Days
                 </span>
               </div>

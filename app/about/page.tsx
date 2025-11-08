@@ -43,7 +43,7 @@ const AboutPage: React.FC = () => {
         {/* 2. Main Content & Image */}
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-20">
           <div className="order-2 lg:order-1">
-            <h2 className="text-4xl font-bold mb-6 text-blue-700">
+            <h2 className="text-4xl font-bold mb-6 text-teal-600">
               Our Journey Started With a Passion for Sri Lanka
             </h2>
             <p className="text-lg text-gray-700 mb-4 leading-relaxed">

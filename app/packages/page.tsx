@@ -15,7 +15,7 @@ const packagesData = [
     color: "text-blue-600",
     hover: "hover:bg-blue-50",
     buttonBg: "bg-blue-600",
-    buttonHover: "hover:bg-blue-700",
+    buttonHover: "hover:bg-teal-600",
     features: [
       { name: "Package Type", value: "VIP Experience" },
       { name: "Price (per person)", value: "$1,200" },
@@ -161,7 +161,7 @@ const PackagesPage: React.FC = () => {
             
             {/* Table Header Row */}
             {/* Added min-w-[700px] to ensure fixed width for scrolling */}
-            <div className="grid grid-cols-4 min-w-[700px] bg-blue-700 text-white font-extrabold text-xl sticky left-0">
+            <div className="grid grid-cols-4 min-w-[700px] bg-teal-600 text-white font-extrabold text-xl sticky left-0">
               <div className="py-5 px-6 text-left">Feature</div>
               <div className="py-5 px-6 text-center">Platinum Package</div>
               <div className="py-5 px-6 text-center">Gold Package</div>
@@ -247,7 +247,7 @@ const PackagesPage: React.FC = () => {
             
             <Link 
                 href="/contact" 
-                className="inline-block mt-10 py-3 px-8 rounded-full text-lg font-bold text-white bg-blue-600 hover:bg-blue-700 transition duration-300 shadow-lg"
+                className="inline-block mt-10 py-3 px-8 rounded-full text-lg font-bold text-white bg-teal-600 hover:bg-teal-600 transition duration-300 shadow-lg"
             >
                 Customize Your Trip
             </Link>

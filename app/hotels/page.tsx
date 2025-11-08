@@ -83,7 +83,7 @@ const HotelListPage: React.FC = () => {
             <div key={provinceGroup.province} className="border-b pb-8 last:border-b-0">
               
               {/* Province Header (Responsive Typography Applied) */}
-              <h2 className="text-2xl sm:text-3xl font-bold text-blue-700 mb-6 sm:mb-8 border-l-4 border-amber-500 pl-4">
+              <h2 className="text-2xl sm:text-3xl font-bold text-teal-600 mb-6 sm:mb-8 border-l-4 border-amber-500 pl-4">
                 {provinceGroup.province}
               </h2>
 
@@ -128,7 +128,7 @@ const HotelListPage: React.FC = () => {
             </p>
             <Link 
                 href="/contact" 
-                className="inline-block py-3 px-8 rounded-full text-lg font-bold text-white bg-blue-600 hover:bg-blue-700 transition duration-300 shadow-lg"
+                className="inline-block py-3 px-8 rounded-full text-lg font-bold text-white bg-teal-600 hover:bg-teal-600 transition duration-300 shadow-lg"
             >
                 Contact Our Team
             </Link>
