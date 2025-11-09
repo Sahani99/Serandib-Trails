@@ -20,8 +20,8 @@ export const trips: Trip[] = [
     title: "Coast & Hills",
     days: 3,
     categories: ["Adventure", "Scenic", "Cultural"],
-    image:"/images/coastal.jpg",
-    backdrop:"/images/backdrop-1.jpg",
+    image:"/Images/coastal.jpg",
+    backdrop:"/Images/backdrop-1.jpg",
     description: `
   Experience the best of Sri Lanka’s coastlines and hill country in this 3-day, 2-night journey from Colombo — blending golden beaches, cool mountains, and cultural charm.
 
@@ -60,17 +60,17 @@ export const trips: Trip[] = [
   - **Relaxation:** Beach stay in Bentota, cool mountain air in Ella
     `,
     gallery: [
-      "/images/benthota beach.jpg",
-      "/images/ella.jpg",
-      "/images/Galle Fort 1.jpg",
-      "/images/Galle Fort 2.jpg",
-      "/images/Ravana-Waterfall.jpg",
-      "/images/madu river 1.jpg",
-      "/images/madu river 2.jpg",
-      "/images/nine arches.jpg",
-      "/images/kosgoda-turtle-hatchery 1.jpg",
-      "/images/kosgoda-turtle-hatchery 2.jpg",
-      "/images/little-adams-peak-view.jpg",
+      "/Images/benthota beach.jpg",
+      "/Images/ella.jpg",
+      "/Images/Galle Fort 1.jpg",
+      "/Images/Galle Fort 2.jpg",
+      "/Images/Ravana-Waterfall.jpg",
+      "/Images/madu river 1.jpg",
+      "/Images/madu river 2.jpg",
+      "/Images/nine arches.jpg",
+      "/Images/kosgoda-turtle-hatchery 1.jpg",
+      "/Images/kosgoda-turtle-hatchery 2.jpg",
+      "/Images/little-adams-peak-view.jpg",
     ],
   },
 
@@ -80,8 +80,8 @@ export const trips: Trip[] = [
     title: "Southern Quest",
     days: 3,
     categories: ["Adventure", "Wildlife", "Hill Side"],
-    image:"/images/benthota beach.jpg",
-    backdrop:"/images/madu river 2.jpg", 
+    image:"/Images/benthota beach.jpg",
+    backdrop:"/Images/backdrop-1.jpg", 
     description: `
   Embark on a thrilling 3-day, 2-night journey from Bentota through Sri Lanka’s southern wonders — from serene rivers and coastal gems to wild safaris and breathtaking mountain landscapes.
 
@@ -123,15 +123,15 @@ export const trips: Trip[] = [
   - **Relaxation:** Lake view stay in Yala / Ella mountain escape
     `,
     gallery: [
-      "/images/benthota beach.jpg",
-      "/images/madu river 1.jpg", 
-      "/images/Ravana-Waterfall.jpg",
-      "/images/yala-national-park-1.jpg",
-      "/images/yala-national-park-2.jpg",
-      "/images/yala-national-park-3.jpg",
-      "/images/little-adams-peak-view.jpg",
-      "/images/tea estate 1.jpg",
-      "/images/ella.jpg",
+      "/Images/benthota beach.jpg",
+      "/Images/madu river 1.jpg", 
+      "/Images/Ravana-Waterfall.jpg",
+      "/Images/yala-national-park-1.jpg",
+      "/Images/yala-national-park-2.jpg",
+      "/Images/yala-national-park-3.jpg",
+      "/Images/little-adams-peak-view.jpg",
+      "/Images/tea estate 1.jpg",
+      "/Images/ella.jpg",
     ],
   },
 
@@ -141,8 +141,8 @@ export const trips: Trip[] = [
     title: "Cultural Essence",
     days: 3,
     categories: ["Cultural", "Historical", "Village Life"],
-    image:"/images/Pinnawala-Elephant-Orphanage-1.jpg",
-    backdrop:"/images/Sri Dalada Maligawa.jpg",
+    image:"/Images/Pinnawala-Elephant-Orphanage-1.jpg",
+    backdrop:"/Images/Sri Dalada Maligawa.jpg",
     description: `
   Discover Sri Lanka’s cultural heartland in this 3-day journey from Negombo — visiting ancient kingdoms, sacred temples, and experiencing authentic village life.
 
@@ -182,13 +182,13 @@ export const trips: Trip[] = [
   - **Ancient Kingdoms & Architecture:** Sigiriya Fortress, Polonnaruwa Ruins, Dambulla Cave Temple
     `,
     gallery: [
-      "/images/Pinnawala-Elephant-Orphanage-1.jpg",
-      "/images/Pinnawala-Elephant-Orphanage-2.jpg",
-      "/images/Sigiriya Village Tour.jpg",
-      "/images/Sigiriya Village Tour 2.jpg",
-      "/images/sigiriya.jpeg",
-      "/images/Parakrama-Samudraya.jpg",
-      "/images/Sri Dalada Maligawa.jpg",
+      "/Images/Pinnawala-Elephant-Orphanage-1.jpg",
+      "/Images/Pinnawala-Elephant-Orphanage-2.jpg",
+      "/Images/Sigiriya Village Tour.jpg",
+      "/Images/Sigiriya Village Tour 2.jpg",
+      "/Images/sigiriya.jpeg",
+      "/Images/Parakrama-Samudraya.jpg",
+      "/Images/Sri Dalada Maligawa.jpg",
     ],
   },
 
@@ -198,12 +198,12 @@ export const trips: Trip[] = [
     title: "Tea Trails",
     days: 3,
     categories: ["Hill Side", "Countryside"],
-    image:"/images/tea trails 1.jpg",
-    backdrop:"/images/backdrop-1.jpg",
+    image:"/Images/tea trails 1.jpg",
+    backdrop:"/Images/backdrop-1.jpg",
     description: "Immerse yourself in the colonial charm and rolling tea plantations of Nuwara Eliya, the 'Little England' of Sri Lanka.",
     gallery: [
-      "/images/tea trails 1.jpg",
-      "/images/tea trails 2.jpg",
+      "/Images/tea trails 1.jpg",
+      "/Images/tea trails 2.jpg",
     ],
   },
   {
@@ -212,14 +212,14 @@ export const trips: Trip[] = [
     title: "Sacred Ruins",
     days: 14,
     categories: ["Historical"],
-    image:"/images/anuradhapura heritage 2.jpg",
-    backdrop:"/images/anuradhapura heritage 4.jpg",
+    image:"/Images/anuradhapura heritage 2.jpg",
+    backdrop:"/Images/anuradhapura heritage 4.jpg",
     description: "A deep dive into Sri Lanka's ancient kingdom, exploring colossal dagobas, ancient reservoirs, and historical ruins.",
     gallery: [
-      "/images/anuradhapura heritage 1.jpg",
-      "/images/anuradhapura heritage 2.jpg",
-      "/images/anuradhapura heritage 3.jpg",
-      "/images/anuradhapura heritage 4.jpg",
+      "/Images/anuradhapura heritage 1.jpg",
+      "/Images/anuradhapura heritage 2.jpg",
+      "/Images/anuradhapura heritage 3.jpg",
+      "/Images/anuradhapura heritage 4.jpg",
     ],
   },
   {
@@ -228,14 +228,14 @@ export const trips: Trip[] = [
     title: "Adam’s Ascent",
     days: 21,
     categories: ["Adventure", "Safari", "Hill Side"],
-    image:"/images/adam's peak 2.jpeg",
-    backdrop:"/images/adam's peak 4.jpg",
+    image:"/Images/adam's peak 2.jpeg",
+    backdrop:"/Images/adam's peak 4.jpg",
     description: "The ultimate Sri Lankan expedition, combining culture, wildlife, and the challenging but rewarding climb to the summit of Adam's Peak.",
     gallery: [
-      "/images/adam's peak 1.jpg",
-      "/images/adam's peak 2.jpeg",
-      "/images/adam's peak 3.jpg",
-      "/images/adam's peak 4.jpg",
+      "/Images/adam's peak 1.jpg",
+      "/Images/adam's peak 2.jpeg",
+      "/Images/adam's peak 3.jpg",
+      "/Images/adam's peak 4.jpg",
     ],
   },
 ];
