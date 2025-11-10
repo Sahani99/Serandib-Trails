@@ -21,7 +21,7 @@ export const trips: Trip[] = [
     days: 3,
     categories: ["Adventure", "Scenic", "Cultural"],
     image:"/Images/coastal.jpg",
-    backdrop:"/Images/backdrop-1.jpg",
+    backdrop:"/Images/backdrop-3.jpg",
     description: `
   Experience the best of Sri Lanka’s coastlines and hill country in this 3-day, 2-night journey from Colombo — blending golden beaches, cool mountains, and cultural charm.
 
@@ -81,7 +81,7 @@ export const trips: Trip[] = [
     days: 3,
     categories: ["Adventure", "Wildlife", "Hill Side"],
     image:"/Images/benthota beach.jpg",
-    backdrop:"/Images/backdrop-1.jpg", 
+    backdrop:"/Images/backdrop-3.jpg", 
     description: `
   Embark on a thrilling 3-day, 2-night journey from Bentota through Sri Lanka’s southern wonders — from serene rivers and coastal gems to wild safaris and breathtaking mountain landscapes.
 
@@ -142,7 +142,7 @@ export const trips: Trip[] = [
     days: 3,
     categories: ["Cultural", "Historical", "Village Life"],
     image:"/Images/Pinnawala-Elephant-Orphanage-1.jpg",
-    backdrop:"/Images/Sri Dalada Maligawa.jpg",
+    backdrop:"/Images/backdrop-6.jpg",
     description: `
   Discover Sri Lanka’s cultural heartland in this 3-day journey from Negombo — visiting ancient kingdoms, sacred temples, and experiencing authentic village life.
 
